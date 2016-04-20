@@ -1,0 +1,100 @@
+body {
+    background-color: #222222;
+}
+
+
+/*页头格式*/
+
+div.main {
+    width: 894px;
+    background-color: #fff;
+    /*margin-left=margin-right=auto时，该元素会在其父元素中居中*/
+    margin: 0 auto;
+    padding: 0 43px;
+}
+
+.head {
+    border-bottom: 1px #938e8c solid;
+    height: 60px;
+    font: 12px 黑体;
+}
+
+.head p:nth-child(1) {
+    color: #fff;
+    /*display: table-cell;*/
+    background-color: #D55D5C;
+    width: 110px;
+    height: 13px;
+    /*vertical-align: bottom;*/
+    padding: 5px;
+    padding-top: 42px;
+    float: left;
+}
+
+.head p:nth-child(2) {
+    width: 110px;
+    height: 13px;
+    float: right;
+    padding-top: 42px;
+    color: red;
+    text-align: right;
+}
+
+
+/*焦点内容区域格式*/
+
+.focus {
+    width: 100%;
+    height: 500px;
+    margin-top: 35px;
+    font-family: 微软雅黑;
+}
+
+.focus-img {
+    width: 640px;
+    height: 300px;
+    background-image: url(img/focus.jpg);
+    float: left;
+}
+
+.focus-num {
+    float: right;
+    width: 200px;
+    border-top: 2px #cc8091 solid;
+    padding-top: 10px;
+}
+
+.focus-num h2 {
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+.focus-num h2::first-letter {
+    font-size: 30px;
+}
+
+.focus-num p.desc {
+    font-size: 12px;
+    font-style: italic;
+    color: #676767;
+    margin-top: 5px;
+}
+
+.focus-num p.num {
+    font-size: 116px;
+    font-style: italic;
+    color: #75b86b;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p.an-num {
+    font-size: 55px;
+    color: #cc8091;
+    float: left;
+}
+
+div.focus p.last-desc {
+    color: #231815;
+}
